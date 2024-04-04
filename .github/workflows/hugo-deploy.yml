@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main  # Adjust for your default branch
+      - main  # Your default branch
 
 jobs:
   build-and-deploy:
@@ -15,10 +15,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Using Node.js version 16
+          node-version: '20'  # Using Node.js version 20
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3  # Check if v3 is available and compatible
+        uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
