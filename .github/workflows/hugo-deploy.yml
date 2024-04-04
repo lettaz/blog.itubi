@@ -1,5 +1,3 @@
-cache: actions
-
 name: Build and Deploy
 
 on:
