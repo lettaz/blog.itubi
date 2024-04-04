@@ -1,28 +1,24 @@
-name: Hugo Build
+name: Build and Deploy
 
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main  # Adjust for your default branch
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3  # Update to use the latest version
+      - name: Check Out Repository
+        uses: actions/checkout@v3  # Updated to v3
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Specify the Node.js version
-          
-      - name: Check out repo
-        uses: actions/checkout@v3
-
-      - name: Update submodules
-        run: git submodule update --init --recursive
+          node-version: '16'  # Using Node.js version 16
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3  # Check if v3 is available and compatible
         with:
           hugo-version: 'latest'
           extended: true
