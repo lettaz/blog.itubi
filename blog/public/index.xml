@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://nitishspatkar.github.io/blog.itubi/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nitishspatkar.github.io/blog.itubi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4. Better Searches for B2B Trading with Itubi</title>
+      <link>https://nitishspatkar.github.io/blog.itubi/posts/4/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nitishspatkar.github.io/blog.itubi/posts/4/</guid>
+      <description>In our journey to revolutionize the B2B trading platform landscape, Itubi has always been at the forefront of exploring innovative solutions to complex problems. Our recent involvement in supervising and guiding a comprehensive bachelor&amp;rsquo;s thesis titled &amp;ldquo;Bridging the Gap: Comparing Text Retrieval Systems for B2B Trading&amp;rdquo; exemplifies our commitment to scientific inquiry and practical application. This thesis not only underscores the challenges faced by current B2B platforms but also highlights Itubi&amp;rsquo;s pioneering approach to addressing these issues through cutting-edge research.</description>
+    </item>
+    
+    <item>
+      <title>3. Navigating the Future of B2B Commerce with Itubi</title>
+      <link>https://nitishspatkar.github.io/blog.itubi/posts/3/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nitishspatkar.github.io/blog.itubi/posts/3/</guid>
+      <description>As we continue our exploration of Swiss-Indian business collaborations, it&amp;rsquo;s crucial to recognize the transformative impact of digital advancements on B2B commerce. Despite the progress, a closer look at existing platforms—guided by insights from industry benchmarks such as Clutch, GoodFirms, and thought-provoking discussions on Algolia&amp;rsquo;s blog—uncovers critical limitations that constrain the potential of these international partnerships. This realization brings us to the forefront of innovation with Itubi, aiming to bridge these gaps and foster a more connected business world.</description>
+    </item>
+    
+    <item>
+      <title> 2. Itubi: Pioneering a New Era of Swiss-Indian Collaborations</title>
+      <link>https://nitishspatkar.github.io/blog.itubi/posts/2/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nitishspatkar.github.io/blog.itubi/posts/2/</guid>
+      <description>In our quest to redefine Swiss-Indian business collaborations, we introduce Itubi, a visionary platform designed from the ground up to facilitate seamless, productive partnerships between Swiss and Indian innovators. Itubi represents not just a solution but a transformational shift in how businesses connect, collaborate, and thrive in a rapidly evolving global landscape. Here, we delve into the core features that set Itubi apart, promising an unprecedented level of support and engagement for its users.</description>
+    </item>
+    
+    <item>
+      <title>1. A New Era for Swiss and Indian Business Collaboration</title>
+      <link>https://nitishspatkar.github.io/blog.itubi/posts/1/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nitishspatkar.github.io/blog.itubi/posts/1/</guid>
+      <description>In the wake of the landmark Free Trade Agreement (FTA) between the EFTA countries and India, the business landscape is set for a transformation. This agreement, signed on March 10, 2024, in New Delhi, heralds a new era of economic cooperation and opportunity for Swiss and Indian businesses alike. It&amp;rsquo;s a pivotal moment that promises to reshape trade dynamics, offering a wealth of opportunities for innovation, collaboration, and growth.
+For Swiss exporters, the FTA is a beacon of savings and opportunities.</description>
+    </item>
+    
+  </channel>
+</rss>
