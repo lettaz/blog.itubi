@@ -9,7 +9,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     cache: actions
-
     steps:
       - name: Check Out Repository
         uses: actions/checkout@v4
