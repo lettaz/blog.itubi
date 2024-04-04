@@ -1,0 +1,12 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "yinyang"
+[params]
+headTitle = "itubi blog"
+mainSections = ["posts"]
+[[params.socials]]
+name = "Follow me on LinkedIn"
+link = "https://www.linkedin.com/in/nitishpatkar/"
+
+
