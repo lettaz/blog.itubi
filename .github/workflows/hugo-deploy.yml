@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # Using Node.js version 20
+          node-version: '16'  # Using Node.js version 20
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
