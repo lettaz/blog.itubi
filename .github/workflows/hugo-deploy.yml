@@ -1,21 +1,14 @@
-name: Build and Deploy
-
-on:
-  push:
-    branches:
-      - main  # Your default branch
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@v3  # Updated to v3
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Using Node.js version 20
+          node-version: '20'
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -24,10 +17,12 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: |
+          cd blog
+          hugo --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./blog/public
