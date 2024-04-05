@@ -17,8 +17,9 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3  # Check for an update that supports Node.js 20
+      - name: Hugo setup
+          uses: peaceiris/actions-hugo@v3.0.0
+            
         with:
           hugo-version: 'latest'
           extended: true
@@ -28,8 +29,8 @@ jobs:
           cd blog
           hugo --minify
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3  # Check for an update that supports Node.js 20
+      - name: Deploy
+          uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./blog/public
