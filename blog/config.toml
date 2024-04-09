@@ -1,4 +1,4 @@
-baseURL = "https://nitishspatkar.github.io/blog.itubi/"
+baseURL = "https://lettaz.github.io/blog.itubi/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "yinyang"
