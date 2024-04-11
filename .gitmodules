@@ -1,6 +1,4 @@
 [submodule "blog/themes/yinyang"]
-path = blog/themes/yinyang
-url = https://github.com/joway/hugo-theme-yinyang
-[submodule "themes/yinyang"]
-	path = themes/yinyang
-	url = https://github.com/joway/hugo-theme-yinyang
+    path = blog/themes/yinyang
+    url = https://github.com/joway/hugo-theme-yinyang
+
